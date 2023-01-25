@@ -20,15 +20,15 @@
     },
     {
       "name": "spring.datasource.secondary",
-      "type": "multi.tenant.configuration.EntityManagerFactoryBuilderProperties",
-      "sourceType": "multi.tenant.configuration.SecondaryDataSourceConfiguration",
-      "sourceMethod": "public multi.tenant.configuration.EntityManagerFactoryBuilderProperties secondaryEntityManagerFactoryBuilderProperties() "
-    },
-    {
-      "name": "spring.datasource.secondary",
       "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
       "sourceType": "multi.tenant.configuration.SecondaryDataSourceConfiguration",
       "sourceMethod": "public org.springframework.boot.autoconfigure.jdbc.DataSourceProperties secondaryDataSourceProperties() "
+    },
+    {
+      "name": "spring.datasource.secondary",
+      "type": "multi.tenant.configuration.EntityManagerFactoryBuilderProperties",
+      "sourceType": "multi.tenant.configuration.SecondaryDataSourceConfiguration",
+      "sourceMethod": "public multi.tenant.configuration.EntityManagerFactoryBuilderProperties secondaryEntityManagerFactoryBuilderProperties() "
     },
     {
       "name": "spring.datasource.secondary.xa",
