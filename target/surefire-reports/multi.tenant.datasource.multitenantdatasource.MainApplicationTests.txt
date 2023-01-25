@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: multi.tenant.datasource.multitenantdatasource.MainApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.803 s <<< FAILURE! - in multi.tenant.datasource.multitenantdatasource.MainApplicationTests
+multi.tenant.datasource.multitenantdatasource.MainApplicationTests  Time elapsed: 0.8 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

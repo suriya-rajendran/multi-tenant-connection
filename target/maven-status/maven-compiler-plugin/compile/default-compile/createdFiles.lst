@@ -1,0 +1,7 @@
+multi\tenant\datamodel\secondary\ProductSecondary.class
+multi\tenant\configuration\EntityManagerFactoryBuilderProperties.class
+multi\tenant\configuration\SecondaryDataSourceConfiguration.class
+multi\tenant\main\MainApplication.class
+multi\tenant\configuration\PrimaryDataSourceConfiguration.class
+META-INF\spring-configuration-metadata.json
+multi\tenant\datamodel\primary\ProductPrimary.class
